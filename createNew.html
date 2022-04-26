@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account Page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="main">
+        <h1 class="title"> Create Account  </h1>
+        <form id="registration">
+        <div class="details">
+            <div class="name_div">
+                <label for="name"> <img class="login_icon" src="Images/Login.png"> </label>
+                <input name="username" class="name_input" type="text" placeholder=" Enter Username"  size="30">
+            </div>
+            <div class="name_div">
+                <label for="name"> <img class="login_icon" src="Images/email-alternate-cropped.png"> </label>
+                <input name="email" class="name_input" type="text" placeholder=" Enter Email"  size="30">
+            </div>
+            <div class="dob_div">
+                <label for="psw-repeat"> <img class="login_icon" src="Images/dob-alternate2.png"> </label>
+                <input name="dateofbirth" class="name_input" type="date" size="30">
+            </div>        
+            <div class="gender"> <span class="genderText">  Select your gender:    </span>
+                <ul>
+                <li>  <img class="icon Male" src="Images/male.png">  <input  type="radio" name="gender"> Male   </li>
+                <li>  <img class="icon Female" src="Images/female.png">  <input  type="radio" name="gender"> Female  </li>
+                <li>  <img class="Other" src="Images/other-alternate.jpg"> <input class="Othertext" type="radio" name="gender"> <span class="Othertextspan"> Choose not to identify / Other </span></li>
+                </ul>
+              </div> 
+            <div class="password_div">
+                <label for="name"> <img class="login_icon" src="Images/Password.jpg"> </label>
+                <input id="password" class="name_input" name="password" type="password" placeholder=" Enter Password"  size="30">
+            </div>
+            <div class="password_div">
+                <label for="name"> <img class="login_icon" src="Images/Password.jpg"> </label>
+                <input class="name_input" name="confirmPassword" type="password" placeholder=" Confirm Password"  size="30">
+            </div> 
+            
+
+        </div>    
+
+        <br>
+  
+        <button class="continue" onclick="location.href='#'">  <span class="signin">Create your account </span> </button>
+        <br>
+        <br>
+        <p class="createAccount"> <a class="createAccount" href="index.html">  Want to Login instead?  </a> </p>
+
+    </form>
+
+
+
+
+    </div>
+    
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js">    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">  </script>
+    <script src="register.js"></script>
+</body>
+</html>

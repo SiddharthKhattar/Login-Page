@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="main">
+        <h1 class="title"> Login Page  </h1>
+        <form id="login">
+        <div class="details">
+            <div class="name_div">
+                <label for="name"> <img class="login_icon" src="Images/Login.png"> </label>
+                <input name="Username" class="name_input" type="text" placeholder=" Enter Username"  size="30">
+            </div>
+            <div class="password_div">
+                <label for="name"> <img class="login_icon" src="Images/Password.jpg"> </label>
+                <input name="Password" class="name_input" type="password" placeholder=" Enter Password"  size="30">
+            </div>    
+        </div>    
+
+        <br>
+        <div class="check_div">
+            <input type="checkbox" class="checkbox"> <span class="rememberme"> Remember Me </span>
+        </div>    
+        <button class="continue" type="submit" onclick="location.href='#'">  <span class="signin">Sign In </span> </button>
+        <br>
+        <br>
+
+        <p class="orLogin">  -or login with-   </p>
+        <br>
+
+        <div class="icons">
+          <a class="icon" target="_blank" href="https://www.facebook.com/">  <img class="facebook" src="Images/facebook.png"> </a>
+          <a class="icon" target="_blank" href="https://www.google.com/">  <img class="icon" src="Images/google-alternate.png"> </a>
+          <a class="icon" target="_blank" href="https://www.apple.com/">  <img class="icon" src="Images/apple.jpg"> </a>
+          <a class="icon" target="_blank" href="https://www.twitter.com/"> <img class="icon" src="Images/twitter.png"> </a>
+          <a class="icon" target="_blank" href="https://www.linkedin.com/"> <img class="icon" src="Images/linkedin.webp"> </a>
+          <a class="icon" target="_blank" href="https://www.instagram.com/">  <img class="instagram" src="Images/instagram-big.png"> </a>
+        </div>
+
+        <p class="orLogin">  -or-   </p>
+
+        <p class="createAccount"> <a class="createAccount" href="createNew.html">  Create an account  </a> </p>
+        
+    </form>
+
+
+
+
+    </div>
+    
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js">    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">  </script>
+    <script src="login.js"></script>
+</body>
+</html>
